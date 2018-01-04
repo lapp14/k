@@ -1,4 +1,6 @@
 $bg-color: #ddd;
+$font-regular: 400;
+$font-bold: 700;
 
 
 /*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
@@ -27,9 +29,15 @@ body {
     opacity: 0.7;
 } 
 
-.navbar-nav .nav-item {
-    margin-left: 4em; 
+.navbar { 
+    font-family: 'Playfair Display SC', serif;
+    letter-spacing: 0.07em;    
 }
+
+.navbar .navbar-brand {
+    font-weight: $font-bold;
+}
+
 
 /*
  * Remove text-shadow in selection highlight:

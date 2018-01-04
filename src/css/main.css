@@ -18,8 +18,12 @@ body {
 .bg-inverse {
   opacity: 0.7; }
 
-.navbar-nav .nav-item {
-  margin-left: 4em; }
+.navbar {
+  font-family: 'Playfair Display SC', serif;
+  letter-spacing: 0.07em; }
+
+.navbar .navbar-brand {
+  font-weight: 700; }
 
 /*
  * Remove text-shadow in selection highlight:
