@@ -7,24 +7,6 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4; }
-
-body {
-  background: #ddd; }
-
-.bg-inverse {
-  opacity: 0.7; }
-
-.navbar {
-  font-family: 'Playfair Display SC', serif;
-  letter-spacing: 0.07em; }
-
-.navbar .navbar-brand {
-  font-weight: 700; }
-
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -34,6 +16,10 @@ body {
  *
  * Customize the background color to match your design.
  */
+html {
+  font-size: 1em;
+  line-height: 1.4; }
+
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none; }

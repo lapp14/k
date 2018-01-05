@@ -18,6 +18,13 @@
   box-sizing: border-box;
   border-collapse: collapse; }
 
+.navbar {
+  font-family: 'Playfair Display SC', serif;
+  letter-spacing: 0.07em; }
+
+.navbar .navbar-brand {
+  font-weight: 700; }
+
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -286,8 +293,8 @@ body {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
-  color: #292b2c;
-  background-color: #fff; }
+  color: #eceeef;
+  background-color: #222; }
 
 [tabindex="-1"]:focus {
   outline: none !important; }
@@ -1396,7 +1403,7 @@ pre {
   .table tbody + tbody {
     border-top: 2px solid #eceeef; }
   .table .table {
-    background-color: #fff; }
+    background-color: #222; }
 
 .table-sm th,
 .table-sm td {
@@ -1486,7 +1493,7 @@ pre {
   .table-inverse th,
   .table-inverse td,
   .table-inverse thead th {
-    border-color: #fff; }
+    border-color: #222; }
   .table-inverse.table-bordered {
     border: 0; }
 
@@ -2119,7 +2126,7 @@ tbody.collapse.show {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #292b2c;
+  color: #eceeef;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -2869,7 +2876,7 @@ tbody.collapse.show {
     color: white; }
 
 .navbar-inverse .navbar-nav .nav-link {
-  color: #fff; }
+  color: #f7f7f9; }
   .navbar-inverse .navbar-nav .nav-link:focus, .navbar-inverse .navbar-nav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75); }
   .navbar-inverse .navbar-nav .nav-link.disabled {
@@ -2888,7 +2895,7 @@ tbody.collapse.show {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
 
 .navbar-inverse .navbar-text {
-  color: #fff; }
+  color: #f7f7f9; }
 
 .card {
   position: relative;
@@ -4030,7 +4037,7 @@ button.close {
   vertical-align: text-top !important; }
 
 .bg-faded {
-  background-color: #f7f7f7; }
+  background-color: #1a1a1a; }
 
 .bg-primary {
   background-color: #0275d8 !important; }
@@ -4063,10 +4070,10 @@ a.bg-danger:focus, a.bg-danger:hover {
   background-color: #c9302c !important; }
 
 .bg-inverse {
-  background-color: #000 !important; }
+  background-color: rgba(0, 0, 0, 0.6) !important; }
 
 a.bg-inverse:focus, a.bg-inverse:hover {
-  background-color: black !important; }
+  background-color: rgba(0, 0, 0, 0.6) !important; }
 
 .border-0 {
   border: 0 !important; }
