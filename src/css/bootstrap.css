@@ -4,6 +4,23 @@
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+html {
+  background-color: #222; }
+
+h1 {
+  letter-spacing: 0.07em;
+  border-bottom: 1px solid #f7f7f9; }
+
+p {
+  font-size: 1.2em; }
+
+.navbar {
+  font-family: 'Playfair Display SC', serif;
+  letter-spacing: 0.07em; }
+
+.navbar .navbar-brand {
+  font-weight: 700; }
+
 .navbar-nav .nav-item {
   margin-left: 4em;
   padding: 1em 0.3em; }
@@ -18,12 +35,46 @@
   box-sizing: border-box;
   border-collapse: collapse; }
 
-.navbar {
-  font-family: 'Playfair Display SC', serif;
-  letter-spacing: 0.07em; }
+.navbar-brand, .nav-link {
+  color: #ccc;
+  margin: 12px 25px; }
 
-.navbar .navbar-brand {
-  font-weight: 700; }
+.navbar-brand {
+  text-align: center;
+  letter-spacing: 0.16em; }
+
+.navbar-brand span.sm {
+  font-size: 0.85em; }
+
+div.content {
+  margin-top: 30px;
+  padding: 26px;
+  min-height: 450px;
+  background: rgba(0, 0, 0, 0.88); }
+
+@media (min-width: 768px) {
+  html {
+    background: url(/img/bg-992.jpg) #222 no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; } }
+
+@media (min-width: 992px) {
+  html {
+    background: url(/img/bg-1200.jpg) #222 no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; } }
+
+@media (min-width: 1200px) {
+  html {
+    background: url(/img/bg.jpg) #222 no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; } }
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
@@ -289,12 +340,12 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
   color: #eceeef;
-  background-color: #222; }
+  background-color: transparent; }
 
 [tabindex="-1"]:focus {
   outline: none !important; }
@@ -446,7 +497,7 @@ output {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: inherit;
+  font-family: "Playfair Display SC", serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit; }
@@ -1403,7 +1454,7 @@ pre {
   .table tbody + tbody {
     border-top: 2px solid #eceeef; }
   .table .table {
-    background-color: #222; }
+    background-color: transparent; }
 
 .table-sm th,
 .table-sm td {
@@ -1493,7 +1544,7 @@ pre {
   .table-inverse th,
   .table-inverse td,
   .table-inverse thead th {
-    border-color: #222; }
+    border-color: transparent; }
   .table-inverse.table-bordered {
     border: 0; }
 
@@ -3676,7 +3727,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -3758,7 +3809,7 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -4037,7 +4088,7 @@ button.close {
   vertical-align: text-top !important; }
 
 .bg-faded {
-  background-color: #1a1a1a; }
+  background-color: transparent; }
 
 .bg-primary {
   background-color: #0275d8 !important; }
@@ -4070,10 +4121,10 @@ a.bg-danger:focus, a.bg-danger:hover {
   background-color: #c9302c !important; }
 
 .bg-inverse {
-  background-color: rgba(0, 0, 0, 0.6) !important; }
+  background-color: rgba(0, 0, 0, 0.88) !important; }
 
 a.bg-inverse:focus, a.bg-inverse:hover {
-  background-color: rgba(0, 0, 0, 0.6) !important; }
+  background-color: rgba(0, 0, 0, 0.88) !important; }
 
 .border-0 {
   border: 0 !important; }
