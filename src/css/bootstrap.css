@@ -5,7 +5,11 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 html {
-  background: #222; }
+  background: url(/img/bg-sm.jpg) #222 no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 h1 {
   letter-spacing: 0.07em;
@@ -51,6 +55,9 @@ div.content {
   padding: 26px;
   min-height: 450px;
   background: rgba(0, 0, 0, 0.88); }
+
+.social-media {
+  margin-right: 16px; }
 
 @media (min-width: 768px) {
   html {
