@@ -1,0 +1,136 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Kill the Duke - Official Band Website</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/ms-icon-150x150.png">
+  <meta name="theme-color" content="#77b342">
+
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" sizes="192x192" href="img/ktd-192.png">
+  <link rel="apple-touch-icon" href="img/ktd-192.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+  <nav>
+    <a href="#" class="logo-main">
+      <img src="img/logo.png" class="logo" />
+    </a>
+
+    <div class="collapsable-menu">
+      <input type="checkbox" id="menu">
+      <label for="menu" class="menu-toggle">&#9776;</label>
+      <div class="menu-content">
+        <ol>        
+          <li><a href="#music">Music</a></li>
+          <li><a href="#social">Social</a></ul>
+          <li><a href="#shows">Shows</a></li>
+        </ol>
+      </div>
+    </div>
+  
+  </nav>
+
+  <div class="container">  
+    <div class="section bg-grey" id="music">
+      <div class="panel">
+        <img class="album-cover" 
+          src="img/album/kill the duke - dark lake (small).jpg" 
+          alt="Kill the Duke - Dark Lake album cover"
+          style="padding-top: 0.5rem" />
+       </div>
+      <div class="panel main-content">
+        <p>
+          Debut album <em class="album-title">Dark Lake</em> is available everywhere
+        </p>
+        <p>
+          <a href="https://music.apple.com/us/album/dark-lake-ep/1474031583" target="_blank">
+            <img class="icon-social music"
+              src="img/social/Apple_Music_Icon.gif" />
+          </a>
+          <a href="https://play.google.com/music/listen?u=0#/album/Bdymkutxc6uixkzksqdsqhaclie/Kill+the+Duke/Dark+Lake" target="_blank">
+            <img class="icon-social music"
+              src="img/social/Google_Play_Music_icon.svg" />
+          </a>
+          <a href="https://open.spotify.com/album/1Qt08hIFwlHH6UY3GNGFzE" target="_blank">
+            <img class="icon-social music"
+              src="img/social/Spotify_Icon_RGB_Green.png" />
+          </a>
+        </p>
+      </div>
+    </div>
+    
+    <div class="section main-content embed-youtube">
+      <iframe src="https://www.youtube.com/embed/irHvq7-45ao" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>  
+    
+    <div class="section bg-black" id="social">
+      <div class="panel panel-full">
+        <p>Follow us on social</p>
+        <p>
+          <a href="https://www.youtube.com/channel/UCCa4UJf_kiA0uuwpnrTkYXQ" target="_blank">
+            <img class="icon-social"
+              src="img/social/social-1_round-youtube.svg" />
+          </a>
+          <a href="https://www.instagram.com/killtheduke/" target="_blank">
+            <img class="icon-social"
+              src="img/social/instagram.png" />
+          </a>
+          <a href="https://www.facebook.com/killtheduke" target="_blank">
+            <img class="icon-social"
+              src="img/social/social-1_logo-facebook.svg" />
+          </a>
+        </p>
+      </div>    
+    </div>
+
+    <div class="section" id="shows">
+      <div class="panel panel-full">  
+        <p>Live Shows</p> 
+      </div>
+      <div id="official-shows">
+        <div id="official-shows__loading" class="loadingio-spinner-rolling-dv2eq841kjk"><div class="ldio-isomo5tbc"><div></div></div></div>
+        <div class="alert" id="official-shows__no-shows" style="display:none">
+          <p>We're on pause for social distancing at the moment</p>
+          <p>Stay safe out there!</p>
+        </div>
+      </div>
+    </div>
+
+  <script src="js/official-shows.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script>   
+    window.onload = function() {
+      var url = 'https://raw.githubusercontent.com/lapp14/official-shows/master/ktd.json';
+      if (window.jQuery) {
+        Shows.loadShows(url);
+      }
+    }
+  </script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7F7KK0PJN8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-7F7KK0PJN8');
+  </script>
+</body>
+</html>

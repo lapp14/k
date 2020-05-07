@@ -1,0 +1,21 @@
+{
+  "short_name": "Kill the Duke",
+  "name": "Kill the Duke Official Band Website",
+  "icons": [
+    {
+      "src": "/img/ktd-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/ktd-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?utm_source=ktd_app",
+  "background_color": "#000000",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#000000"
+}
