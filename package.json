@@ -1,0 +1,38 @@
+{
+  "name": "kill-the-duke",
+  "version": "1.0.0",
+  "description": "Official band website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node scripts/deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lapp14/kill-the-duke.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lapp14/kill-the-duke/issues"
+  },
+  "homepage": "https://github.com/lapp14/kill-the-duke#readme",
+  "dependencies": {
+    "aws-sdk": "^2.671.0",
+    "fs": "0.0.1-security",
+    "mime-types": "^2.1.27"
+  },
+  "assets": [
+    "favicon.ico",
+    "index.html",
+    "manifest.json",
+    "css/",
+    "img/",
+    "img/album/",
+    "img/social/",
+    "js/"
+  ],
+  "cloudfrontDistributionId": "E3N4SDUJYRXQXQ",
+  "deploymentTitle": "kill-the-duke",  
+  "s3Bucket": "aws-website-killtheduke-iq3co"
+}
